@@ -22,8 +22,8 @@ from cpplint import _ClassifyInclude as classify_include
 _STYLE_MODULES_DICT = {
     u'sort_includes': (u'Automatically divide includes into sections and sort '
                        'them, according to Google C++ Style Guide'),
-    u'correct_spacing': (u'Add and/or remove spaces and tabs, '
-                         'according to Google C++ Style Guide'),
+#    u'correct_spacing': (u'Add and/or remove spaces and tabs, '
+#                         'according to Google C++ Style Guide'),
 }
 _STYLE_MODULES = frozenset(_STYLE_MODULES_DICT.keys())
 _RE_PATTERN_INCLUDE = re.compile(  # from cpplint + modifications
